@@ -1,0 +1,70 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="1318756407" file="Y:\Krishna\Matlab files\Hydra analysis\Locomotion Analysis\HydraTracking\Hydra_ROI.prj" location="Y:\Krishna\Matlab files\Hydra analysis\Locomotion Analysis\HydraTracking" name="Hydra_ROI" target="target.mlapps" target-name="Package App">
+    <param.appname>Hydra_ROI</param.appname>
+    <param.authnamewatermark>KrishnaBadhiwala</param.authnamewatermark>
+    <param.email />
+    <param.company>RobinsobLab</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>Draw ROIs around Hydra chambers and seed starting position for each animal.</param.summary>
+    <param.description />
+    <param.screenshot>C:\Users\Krishna\AppData\Local\Temp\tp9e2d9176_97d4_4ce1_b3b4_6c8e66f5f450.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>88ea4a96-b95e-4ec1-91e9-8d9c5c4f338c</param.guid>
+    <unset>
+      <param.email />
+      <param.icon />
+      <param.icons />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Hydra_ROI.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>Z:\Matlab files\Hydra analysis\Locomotion Analysis\OLDBehavioralTracking\getBehavioralTrackFileList.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="Y:\Krishna\Matlab files\Hydra analysis\Locomotion Analysis" name="HydraTracking" optional="false">Y:\Krishna\Matlab files\Hydra analysis\Locomotion Analysis\HydraTracking</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2019a</root>
+      <toolboxes>
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

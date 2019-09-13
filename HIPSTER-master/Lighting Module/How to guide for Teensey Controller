@@ -1,0 +1,43 @@
+HIPSTER – Disco Lights
+Materials:
+RGB LEDs WS2812 (flickering issue)
+Teensy 3.0 microcontrollers
+Roscolux 3000 diffuser
+
+Softwares:
+Arduino Teensy compiler with custom script
+_flashcolor:R,G,B_ ~ Set the color to flash.  0-255 values for R, G, and B
+ _stimperiod:x.xx_ ~ Set the stimulation period.  Time is hours as floating point - 1.1 = 1 hour and 6 minutes
+ _flashperiod:x.xx_ ~ Set the flash period.  Time is in seconds as floating point
+ _pulseduration:x.xx_ ~ Set the stimulation pulse duration.  Time is in minutes as floating point
+ _flash:X_ ~ Turn flashing on or off.  X is 0 or 1.  should begin or stop flashing immediately after command received.
+flashcolor:0,0,255 
+stimperiod:0.25
+flashperiod:1
+pulseduration:0.5
+flash:1
+Every 15minutes, pulse LEDs to Blue for 1 sec on 1 sec off (baseline) for 30 sec.
+
+Set all LEDs to same value RGB range from 0-255 (0 = off, 255= highest intensity)	
+setall:xxx,xxx,xxx
+	set specific LED to a value 
+		setone:x-xxx,xxx,xxx
+		update
+	Periodic Light stimulation:
+	Start stimulation protocol
+		flash:1 
+	stop stimulation procotol
+		flash:0
+	set stimulation light color
+		flashcolor:xxx,xxx,xxx
+	set stimulation period (Time before repeating stimulation sequence). Time is hours. 1 = 1 hour, 0.25 = 15mins
+stimperiod:0.25
+
+set flash period (Time LED flash stays on for). Time is seconds. 1 = 1sec
+flashperiod:1
+set pulse duration (Time LEDs flash on/off sequence is repeated). Time is minutes. 0.5 = 30 seconds
+pulseduration:0.5
+	
+TyCommander 
+to interface with multiple Teensys and run different script on each.
+
