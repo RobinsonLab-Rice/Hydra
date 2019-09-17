@@ -10,7 +10,7 @@ Directories:
     3. Flow layer - design for the microfluidic layer to insert the animal and keep immobilized 
 
 
-For fabrication steps refer to:
+For detailed fabrication steps refer to:
 
 1. Gonzales, D. L. et al. Scalable electrophysiology in intact small animals with nanoscale suspended electrode arrays. Nat. Nanotechnol. 12, 684–691 (2017).
 
