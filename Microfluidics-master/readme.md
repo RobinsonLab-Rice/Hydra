@@ -66,11 +66,11 @@ _Notes:_
     3. If the animal health is not important (ie discard hydra), then remove tubing from one of the ports and apply high pressure to the syringe plugged into the port on the opposite side of the device. Hydra will flow out.
 
 ### Cleaning microfluidic devices
-  1. Flush the channels with DI water using syringe fitted with 0.2um filter (~30mL)
-  2. Submerge the device in DI water and sonicate for ~10 min.
-  3. Heat the device in DI water to 160C for 1hr.
-  3. If the device was used with chemical, soak in new DI water overnight (replacing DI water every few hours, if possible)
-  4. Dry the device with compressed air and  in bake in oven at 45C ~8 hrs. (Note: lower temperature prevents PDMS from stiffening too much)
+    1. Flush the channels with DI water using syringe fitted with 0.2um filter (~30mL)
+    2. Submerge the device in DI water and sonicate for ~10 min.
+    3. Heat the device in DI water to 160C for 1hr.
+    3. If the device was used with chemical, soak in new DI water overnight (replacing DI water every few hours, if possible)
+    4. Dry the device with compressed air and  in bake in oven at 45C ~8 hrs. (Note: lower temperature prevents PDMS from stiffening too much)
 
 
 
