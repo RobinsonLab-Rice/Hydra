@@ -17,18 +17,17 @@ Softlithography method requires multiple resin layers to reach the desired chamb
 ## Fabrication
 ### Microfluidic Master mold - Hydra layer
 
-
-  Method 1 - 3D print:
-    Design layouts with Autodesk inventor
-    FormLabs 3D printer (clear resin)
-
-  Method 2 - Sofft Lithography:
-  * Soft-lithography for very thick photoresist layer is prone to thermal stress. Avoid exposure to excessive humidity and sudden temperature change.*
+Method 1 - 3D print:
+      Design layouts with Autodesk inventor
+      FormLabs 3D printer (clear resin)
+    
+Method 2 - Sofft Lithography:
+    * Soft-lithography for very thick photoresist layer is prone to thermal stress. Avoid exposure to excessive humidity and sudden temperature change.*
 
     1. Clean wafer:
 
-      Heat 4” Si wafer @250C for 5min
-      O2 pClean in cleanroom for 5 min 100W atts
+        Heat 4” Si wafer @250C for 5min
+        O2 pClean in cleanroom for 5 min 100W atts
 
     2. Spin coat 3 layers of SU8-2075 for ~220um thickness each (3 layers for ~600um, 2 layers for 440um, etc)
 
@@ -88,7 +87,7 @@ Softlithography method requires multiple resin layers to reach the desired chamb
     6.	Hard Bake:
       40 min @ 65C
       100C/hr ramp to 160C 30 mins
-      Cool to RT slowly (if the subtrate is heated/cooled too fast, the photoresit may crack and peel off the device due to high  thermal stress)
+      Cool to RT slowly (if the subtrate is heated/cooled too fast, the photoresit may crack and peel off the device due to high thermal stress)
       
       
       
