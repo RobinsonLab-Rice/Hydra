@@ -1,6 +1,8 @@
 # Contents:
 - Types of devices
-- PDMS Fabrication
+- General Fabrication
+  - Microfluidic Molds
+  - PDMS
 - General use info
   - Hydra Loading/Unloading
   - Device Cleaning
@@ -21,6 +23,37 @@ _Notes:_
   - *Stay tuned for more devices!!!*
 
 ## General Fabrication
+### Microfluidic Molds
+    Materials:
+      4" wafer
+      SU8-2075
+      Photomask
+      SU8 developer
+      IPA
+      Oxygen plasma cleaner
+      Mask aligner (UV lamp)
+      Photoresist Spinner
+      Hot plate
+
+
+    1. Oxygen Plasm Clean
+      10 min at ~100 W, 10 Torr
+    2. Spin SU8-2075
+      Spin speed depends on channel height. (see detailed steps for the specific devices.)
+    3. Pre-bake 
+      Bake times depend on channel height. (see detailed steps for the specific devices.)
+    4. Expose
+      Exposure dose depend on channel height. (see detailed steps for the specific devices.)
+      Use UV filter
+      We use transparency photomasks for most microfluidic devices. (see specific device directory for layouts).
+    5. Post-bake
+      Bake times depend on channel height. (see detailed steps for the specific devices.)
+    6. Develop
+      SU8 developer
+      IPA rinse
+      Bake times depend on channel height. (see detailed steps for the specific devices.)
+    7. Hard-bake
+      1 hr at 180C
 
 ### PDMS
 #### Moulding PDMS
@@ -41,10 +74,10 @@ _Notes:_
 
 ## General use information 
 ### Hydra Loading/Unloading 
-
-  BD 10mL Syringe Luer-Lok tip (REF302995)
-  LS18 18ga x ½” Luer Stubs (www.instechlabs.com)
-  Tubing 0.045 ”I.D. x 0.063” O.D. www.scicominc.com catalog # BB31695-PE/7)
+    Materials:
+      BD 10mL Syringe Luer-Lok tip (REF302995)
+      LS18 18ga x ½” Luer Stubs (www.instechlabs.com)
+      Tubing 0.045 ”I.D. x 0.063” O.D. www.scicominc.com catalog # BB31695-PE/7)
 
 #### Device Prep:
   
