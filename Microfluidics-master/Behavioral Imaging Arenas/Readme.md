@@ -17,12 +17,19 @@ Method 1: 3D print:
   FormLabs 3D printer (clear resin)
 
 Method 2: Sofft Lithography:
+
   Design layouts with LEdit and print transparencies with CAD/ART services
+  
   1.Clean wafer:
-    a.Heat 4” Si wafer @250C for 5min, 
+  
+    a.Heat 4” Si wafer @250C for 5min
+    
     b.O2 pClean in cleanroom for 5 min 100W atts
+    
   2. Spin coat 3 layers of SU8-2075 for ~220um thickness each (3 layers for ~600um, 2 layers for 440um, etc)
+  
   Layer 1
+  
     Spin recipe:
       Step 1: 300rpm - 100rpm/s - 20s
       Step 2: 1150rpm - 500rpm/s - 30s
