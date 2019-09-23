@@ -25,7 +25,7 @@ Softlithography method requires multiple resin layers to reach the desired chamb
   Method 2 - Sofft Lithography:
   * Soft-lithography for very thick photoresist layer is prone to thermal stress. Avoid exposure to excessive humidity and sudden temperature change.*
 
-    1.Clean wafer:
+    1. Clean wafer:
 
       Heat 4” Si wafer @250C for 5min
       O2 pClean in cleanroom for 5 min 100W atts
