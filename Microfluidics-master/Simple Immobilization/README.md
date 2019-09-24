@@ -6,10 +6,10 @@ Contents:
 
 
 ## Device Overview
-Simple Immobilization device (~100um height) confine movement of hydra to quasi-2D for whole-animal imaging.
+Simple Immobilization device (~100um height) confines movement of hydra to quasi-2D for whole-animal imaging.
 
 Photomasks notes:
-We designed layouts with LEdit and obtain the transparency photomasks from CAD/ART services.
+We designed layouts with L-Edit and obtained the transparency photomasks from CAD/ART services.
 
 ## Fabrication
 ### Microfluidic Master mold - Hydra layer
