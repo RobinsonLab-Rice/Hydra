@@ -6,7 +6,7 @@ Contents:
 
 
 ## Device Overview
-Behavioral imaging arenas (~600um height) confine movement of hydra quaso-2D. Animal exhibits correlates of many freely moving animal behaviors. Animals are loaded one per chamber to limit interaction between individuals. This method for immobilization allows imaging animals for days. Refer to HIPSTER to see how to use these devices for long-term time-lapse imaging of behaviors. 
+Behavioral imaging arenas (~600um height) confine movement of hydra to quasi-2D. Animal exhibits correlates of many freely moving animal behaviors. Animals are loaded one per chamber to limit interaction between individuals. This method for immobilization allows imaging animals for days. Refer to HIPSTER to see how to use these devices for long-term time-lapse imaging of behaviors. 
 
 Photomasks notes:
 
@@ -21,13 +21,13 @@ Method 1 - 3D print:
       Design layouts with Autodesk inventor
       FormLabs 3D printer (clear resin)
     
-Method 2 - Sofft Lithography:
+Method 2 - Soft Lithography:
     * Soft-lithography for very thick photoresist layer is prone to thermal stress. Avoid exposure to excessive humidity and sudden temperature change.*
 
     1. Clean wafer:
 
         Heat 4” Si wafer @250C for 5min
-        Oxygen plams clean: 5 min ~100W, 10Torr
+        Oxygen plasma clean: 5 min ~100W, 10Torr
 
     2. Spin coat 3 layers of SU8-2075 for ~220um thickness each (3 layers for ~600um, 2 layers for 440um, etc)
 
