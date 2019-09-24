@@ -30,20 +30,20 @@ We designed layouts with LEdit and obtain the transparency photomasks from CAD/A
           3 min @ 65C 
           10 min @ 95C 
     
-    4.	Expose 
+    4. Expose 
       ~ 250 mJ/cm2 with UV filter
       Expsure dose may need to be adjusted depending on layout or lamp age
     
-    5.	Post-bake
+    5. Post-bake
       5 min @ 65C 
       5-7 min @ 95C
     
-    6.	Develop 
+    6. Develop 
       3 minutes in SU-8 developer 
       IPA rinse
       Air dry
     
-    7.	Hard Bake:
+    7. Hard Bake:
       5 min @ 65C
       5 min @ 95C
       5 min @ 120C
@@ -51,32 +51,32 @@ We designed layouts with LEdit and obtain the transparency photomasks from CAD/A
       Cool to RT slowly (if the subtrate is heated/cooled too fast, the photoresist may crack and peel off the device due to high thermal stress)
       
       Hydra Layer
-    2. Spin coat SU8-2075 for ~100 um thickness  
+    8. Spin coat SU8-2075 for ~100 um thickness  
      
         Spin recipe: 
           Step 1: 300rpm - 100rpm/s - 20s
           Step 2: 1800rpm - 300rpm/s - 30s
 
-    3. Pre-Bake:
+    9. Pre-Bake:
           10 min @ 65C 
           30 min @ 95C 
           May require slow temperature ramping if photoresist forms deformities in form of bubbles or wrinkles.
     
-    4.	Expose 
+    10.	Expose 
       align the mask to previous layer of photoresist using the alignment marks.
       ~ 350 mJ/cm2 with UV filter
       Expsure dose may need to be adjusted depending on layout or lamp age
     
-    5.	Post-bake
+    11. Post-bake
       10 min @ 65C 
       30 min @ 95C
     
-    6.	Develop 
+    12. Develop 
       8 minutes in SU-8 developer 
       IPA rinse
       Air dry
     
-    7.	Hard Bake:
+    13. Hard Bake:
       5 min @ 65C
       5 min @ 95C
       5 min @ 120C
