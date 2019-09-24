@@ -1,16 +1,24 @@
-nano-SPEAR electrophysiology device is used to measure the electrical activity of the epithelial muscle cells (EMG-like recording). 
+Contents:
+- Device overview
+- Fabrication
+- References
 
 
-Directories:
+## Device Overview
+nano-SPEAR electrophysiology device is used to measure the electrical activity of the epithelial muscle cells (EMG-like recording). Hydra movement is confined with hour-glass shape chamber pinching hydra body column.
 
-"Layouts (GDS)" contains .gds files with mask designs for fabricating nano-SPEAR chips.
+Photomasks notes:
+We designed layouts with LEdit and obtain the glass photomasks from Frontrange. Because small feature sizes are used, ~10 um electrode traces, glass photomasks are required.
 
-    1. Electrode layer - design for the electrode traces
-    2. KMPR layer - design for photoresist layer to make channels for animal immobilization
-    3. Flow layer - design for the microfluidic layer to insert the animal and keep immobilized 
+## Fabrication
+
+    1. KMPR bottom layer (~40 um)- design for photoresist layer to make channels for animal immobilization
+    2. Electrode layer (~200 nm) - design for the electrode traces
+    3. KMPR top layerlayer (~80 um) - design for photoresist layer to make channels for animal immobilization
+    4. Hydra flow layer (~100 um) - design for the microfluidic layer to insert the animal and keep immobilized 
 
 
-For detailed fabrication steps refer to:
+## References:
 
 1. Gonzales, D. L. et al. Scalable electrophysiology in intact small animals with nanoscale suspended electrode arrays. Nat. Nanotechnol. 12, 684–691 (2017).
 
