@@ -69,22 +69,22 @@ Method 2 - Soft Lithography:
           5c/hr ramp to 60C for 5 min
           Cool to RT on plate
     
-    3.	Expose 
+    3. Expose 
       ~ 800 mJ/cm2 with UV filter
       Expsure dose may need to be adjusted depending on layout or lamp age
     
-    4.	Post-bake
+    4. Post-bake
       15 min @ 65C 
       200C/hr ramp to 85C for 10 min (should start to see the pattern emerge)
       10 min @ 95C
       coot to RT
     
-    5.	Develop 
+    5. Develop 
       20 minutes in SU-8 developer (if it takes too long replace with new developer)
       IPA rinse
       Air dry
     
-    6.	Hard Bake:
+    6. Hard Bake:
       40 min @ 65C
       100C/hr ramp to 160C 30 mins
       Cool to RT slowly (if the subtrate is heated/cooled too fast, the photoresist may crack and peel off the device due to high thermal stress)
