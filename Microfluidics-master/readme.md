@@ -24,6 +24,8 @@ _Notes:_
 
 ## General Fabrication
 ### Microfluidic Molds
+We highlight the general steps for microfluidic mold fabrication here. Detailed parameters can be found under specific device directory.
+
     Materials:
       4" wafer
       SU8-2075
@@ -39,23 +41,25 @@ _Notes:_
     1. Oxygen Plasm Clean
       10 min at ~100 W, 10 Torr
     2. Spin SU8-2075
-      Spin speed depends on channel height. (see detailed steps for the specific devices.)
+      Spin speed depends on channel height. (see specific devices for details)
     3. Pre-bake 
-      Bake times depend on channel height. (see detailed steps for the specific devices.)
+      Bake times depend on channel height. (see specific devices for details)
     4. Expose
-      Exposure dose depend on channel height. (see detailed steps for the specific devices.)
+      Exposure dose depend on channel height. (see specific devices for details)
       Use UV filter
-      We use transparency photomasks for most microfluidic devices. (see specific device directory for layouts).
+      We use transparency photomasks for most microfluidic devices. (see specific devices for details)
     5. Post-bake
-      Bake times depend on channel height. (see detailed steps for the specific devices.)
+      Bake times depend on channel height. (see specific devices for details)
     6. Develop
       SU8 developer
       IPA rinse
-      Bake times depend on channel height. (see detailed steps for the specific devices.)
+      Bake times depend on channel height. ((see specific devices for details)
     7. Hard-bake
       1 hr at 180C
 
 ### PDMS
+This fabrication protocol is the same for all of the microfluidic devices.
+
 #### Moulding PDMS
       1. Thoroughly Mix PDMS (Sylgard 184)  monomer and crosslinker 10:1 (w/w) for 10 mins (~30:3g for one 4”Si wafer). (Note: mixing for ~10 mins is important to make peeling PDMS from mold easier.)
       2. Make walls around the master mold (Si wafer or 3D printed mold) with Alumuminum foil and pour the PDMS mixture in.
